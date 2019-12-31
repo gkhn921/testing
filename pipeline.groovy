@@ -1,22 +1,16 @@
 #!/usr/bin/groovy
-
+// Scripted Pipeline
 node {
 
-stage ('Build'){
+	stage('Build') {
+		echo 'Building....'
+	}
 
-echo 'Building....'
-}
+	stage('Test') {
+		echo 'Building....'
+	}
 
-stage ('Test'){
-
-echo 'Building....'
-}
-
-stage ('Deploy'){
-
-echo 'Building....'
-}
-
-
-
+	stage('Deploy') {
+		echo 'Deploying....'
+	}
 }
